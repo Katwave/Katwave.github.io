@@ -1,2 +1,2 @@
 # Katwave.github.io
-web development learning website
+A website for learning web development for free

@@ -7,6 +7,13 @@
         width: 40%;
         height: 50%;
     }
+
+    #buttonClose{
+        display: none;
+    }
+    #button{
+        display: none;
+    }
 }
 
 
@@ -122,6 +129,11 @@
         display: flex;
     }
 
+    #button{
+        display: none;
+    }
+
+
     .navLinks ul li{
         display: none;
     }
@@ -130,7 +142,7 @@
         font-size: 60px;
     }
     .introContent h2{
-        width: 36px;
+        font-size: 36px;
     }
 
 }
