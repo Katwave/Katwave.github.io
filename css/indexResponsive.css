@@ -1,0 +1,270 @@
+/* CSS RULES */
+
+/* 1250px width */
+
+@media screen and (max-width: 1250px){
+    .logoContainer{
+        width: 40%;
+        height: 50%;
+    }
+}
+
+
+
+
+
+/* 1230px width */
+
+@media screen and (max-width: 1230px){
+
+    .navContainer{
+        width: 60%;
+    }
+
+    .welcomeCenterCont{
+        width: 60%;
+    }
+}
+
+
+
+
+
+/* 1110px width */
+
+@media screen and (max-width: 1110px){
+    .navLinks ul li{
+        margin-right: 12px;
+    }
+
+    .navContainer{
+        width: 80%;
+    }
+
+    .welcomeCenterCont{
+        width: 80%;
+    }
+
+    .welcomeInfo{
+        width: 75%;
+    }
+
+    .logoContainerFooter{
+        width: 15%;
+        height: 20%;
+    }
+}
+
+
+
+
+
+/* 770px width */
+
+@media screen and (max-width: 770px){
+
+    .navContainer{
+        width: 90%;
+    }
+
+    .welcomeCenterCont{
+        width: 90%;
+    }
+}
+
+
+
+
+
+/* 685px width */
+
+@media screen and (max-width: 685px){
+
+    .navContainer{
+        width: 100%;
+    }
+
+    .welcomeCenterCont{
+        width: 100%;
+    }
+
+    .logoContainer{
+        width: 75%;
+        height: 70%;
+    }
+
+    .CTAContainer a{
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .formContainer{
+        width: 95%;
+        margin:auto;
+    }
+
+    .logoContainerFooter{
+        width: 24%;
+        height: 20%;
+    }
+
+}
+
+
+
+
+
+/* 540px width */
+
+@media screen and (max-width: 540px){
+
+    #buttonClose{
+        display: flex;
+    }
+
+    .navLinks ul li{
+        display: none;
+    }
+
+    .introContent h1{
+        font-size: 60px;
+    }
+    .introContent h2{
+        width: 36px;
+    }
+
+}
+
+
+
+
+
+/* 500px width */
+
+@media screen and (max-width: 500px){
+
+    .centerFormContainer input{
+        width: 250px;
+        font-size: 16px;
+    }
+    .centerFormContainer textarea{
+        width: 250px;
+        font-size: 16px;
+    }
+    .centerFormContainer button{
+        width: 250px;
+        font-size: 16px;
+    }
+
+}
+
+
+
+
+
+/* 460px width */
+
+@media screen and (max-width: 460px){
+
+    .courses{
+        flex-direction: column;
+    }
+
+    .courseInfo{
+        width: 100%;
+    }
+
+    .courseCTA{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+/* Height Rules */
+
+/* 850px height */
+
+@media screen and (max-height: 850px){
+
+    .footer{
+        height: 140%;
+    }
+
+}
+
+
+
+
+/* 770px height */
+
+@media screen and (max-height: 770px){
+
+    .formContainer{
+        height: 100%;
+    }
+
+    .welcomeInfo a{
+        font-size: 18px;
+        padding: 10px;
+    }
+
+}
+
+
+
+
+/* 600px height */
+
+@media screen and (max-height: 600px){
+
+    .footer{
+        height: 200%;
+    }
+
+}
+
+
+
+
+/* 580px height */
+
+@media screen and (max-height: 580px){
+
+    .CTAContainer a{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .coursesContainer{
+        height: 180%;
+    }
+
+}
+
+
+
+
+/* 520px height */
+
+@media screen and (max-height: 520px){
+
+    .formContainer{
+        height: 120%;
+    }
+
+}
+
+
+
+
+/* width and height */
+
+@media screen and (max-width:720px) and (max-height: 650px){
+    .welcomeInfo h1{
+        font-size: 30px;
+    }
+}
