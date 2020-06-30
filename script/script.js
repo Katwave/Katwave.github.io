@@ -72,6 +72,7 @@ const themeChangerWhite = document.getElementsByClassName("themeChangerWhite")[0
 const themeChangerMobile = document.getElementsByClassName("themeChangerMobile")[0];
 const spanHam = document.getElementsByClassName("spanHam");
 
+
 themeChanger[0].addEventListener("click", () =>{
 
     changeNavTheme.style="background: rgb(0,15,24)";
@@ -100,6 +101,9 @@ themeChanger[0].addEventListener("click", () =>{
     spanHam[4].style="background: #fff";
     spanHam[5].style="background: #fff";
     console.log(spanHam)
+
+    themeChangerWhite.style="display:inline; color:#fff";
+    themeChanger[0].style="display:none";
 });
 
 themeChanger[1].addEventListener("click", () =>{
@@ -121,6 +125,7 @@ themeChanger[1].addEventListener("click", () =>{
     changeLinksColor[3].style="color:#fff";
 
     themeChangerWhite.style="display:flex; color:#fff";
+    themeChangerWhite.style="display:inline; color:#fff";
     themeChanger[1].style="display:none";
 });
 
@@ -176,4 +181,3 @@ themeChangerMobile.addEventListener("click", () =>{
     spanHam[4].style="background: #000";
     spanHam[5].style="background: #000";
 });
-
